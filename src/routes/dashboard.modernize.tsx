@@ -291,7 +291,7 @@ Risk Reduction: 78% → 34% (44 point improvement)`}
                       <label className="block text-xs font-semibold uppercase tracking-wider text-gray-500 mb-2">
                         Estimated Risk Reduction
                       </label>
-                      <div className="rounded-xl bg-gradient-to-r from-red-500/10 to-green-500/10 p-4 retro-border">
+                      <div className="rounded-xl bg-linear-to-r from-red-500/10 to-green-500/10 p-4 retro-border">
                         <div className="flex items-center justify-between mb-2">
                           <span className="text-sm font-semibold text-gray-700">Legacy Risk Score</span>
                           <span className="text-2xl font-bold text-red-500">78%</span>
@@ -301,7 +301,7 @@ Risk Reduction: 78% → 34% (44 point improvement)`}
                             initial={{ width: "78%" }}
                             animate={{ width: "34%" }}
                             transition={{ duration: 1, delay: 0.5 }}
-                            className="h-full bg-gradient-to-r from-red-500 to-green-500"
+                            className="h-full bg-linear-to-r from-red-500 to-green-500"
                           />
                         </div>
                         <div className="flex items-center justify-between">
